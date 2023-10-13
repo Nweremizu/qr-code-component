@@ -534,6 +534,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-y-2\/4 {
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-2\/4 {
+  left: 50%;
+  right: 50%;
+}
+
+.inset-x-1\/4 {
+  left: 25%;
+  right: 25%;
+}
+
+.inset-x-auto {
+  left: auto;
+  right: auto;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -549,6 +581,14 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .flex {
@@ -619,6 +659,10 @@ video {
   background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -651,6 +695,11 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -710,4 +759,39 @@ video {
 .atrribution {
   font-size: 11px;
   text-align: center;
+}
+
+@media (min-width: 357px) {
+  .sm\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+
+  .sm\:left-\[12\.5\%\] {
+    left: 12.5%;
+  }
+
+  .sm\:left-auto {
+    left: auto;
+  }
+
+  .sm\:left-\[10\] {
+    left: 10;
+  }
+
+  .sm\:left-\[5\] {
+    left: 5;
+  }
+
+  .sm\:left-\[5\%\] {
+    left: 5%;
+  }
+
+  .sm\:left-\[15\%\] {
+    left: 15%;
+  }
+
+  .sm\:right-\[12\.5\%\] {
+    right: 12.5%;
+  }
 }
