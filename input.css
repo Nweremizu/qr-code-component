@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.atrribution {
+  font-size: 11px;
+  text-align: center;
+}
